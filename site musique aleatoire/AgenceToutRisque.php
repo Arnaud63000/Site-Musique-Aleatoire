@@ -3,14 +3,6 @@
 
 <head>
 
-<meta http-equiv="refresh" content="180; url=pokemon.php" />
-<meta http-equiv="refresh" content="220; url=stupeflip.php" />
-<meta http-equiv="refresh" content="220; url=starwars.php" />
-<meta http-equiv="refresh" content="150; url=Starsky.php" />
-<meta http-equiv="refresh" content="220; url=dallas.php" />
-<meta http-equiv="refresh" content="220; url=indiana.php" />
-
-
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <title>L'agence tout risque</title>
