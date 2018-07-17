@@ -24,7 +24,7 @@ $urls = array("AgenceToutRisque.php" ,"Starsky.php" ,"pokemon.php" ,"stupeflip.p
 
 
   $random = (rand()%7); 
-header("Location: ".$url);
+header("Location: ".$urls);
 exit;
 
 ?>
