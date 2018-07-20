@@ -11,6 +11,6 @@ $track = 'musiques/Générique - Starsky  Hutch.mp3'
 		<param name="autostart" value="true">
 		<param name="autoplay" value="true"> 
 		<param name="controller" value="true">
-		<audio src="musiques/Générique - Starsky  Hutch.mp3" id="track" controller="true" autoplay="true" autostart="True" type="audio/mp3" />
+		<audio onended="redirection()" src="musiques/Générique - Starsky  Hutch.mp3" id="track" controller="true" autoplay="true" autostart="True" type="audio/mp3" />
 	</object>
  

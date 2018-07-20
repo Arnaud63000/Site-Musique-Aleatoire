@@ -10,5 +10,5 @@ $track = 'musiques/Générique français de la saison 1 de Pokemon.mp3'
 		<param name="autostart" value="true">
 		<param name="autoplay" value="true"> 
 		<param name="controller" value="true">
-		<audio src="musiques/Générique français de la saison 1 de Pokemon.mp3" id="track" controller="true" autoplay="true" autostart="True" type="audio/mp3" />
+		<audio onended="redirection()" src="musiques/Générique français de la saison 1 de Pokemon.mp3" id="track" controller="true" autoplay="true" autostart="True" type="audio/mp3" />
 	</object>

@@ -11,6 +11,6 @@ $track = 'musiques/Indiana Jones Theme Song [HD].mp3'
 		<param name="autostart" value="true">
 		<param name="autoplay" value="true"> 
 		<param name="controller" value="true">
-		<audio src="musiques/Indiana Jones Theme Song [HD].mp3" id="track" controller="true" autoplay="true" autostart="True" type="audio/mp3" />
+		<audio onended="redirection()" src="musiques/Indiana Jones Theme Song [HD].mp3" id="track" controller="true" autoplay="true" autostart="True" type="audio/mp3" />
 	</object>
   
