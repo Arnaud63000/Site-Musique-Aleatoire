@@ -11,7 +11,7 @@ $track = 'musiques/Emotional Titanic Flute.mp3'
 		<param name="autoplay" value="true"> 
 		<param name="controller" value="true">
 
-		<audio onended="redirection()" src="musiques/Emotional Titanic Flute.mp3" id="track" controller="true" loop="false" autoplay="true" autostart="True" type="audio/mp3" />
+		<audio onended="redirection()" src="musiques/Emotional Titanic Flute.mp3" id="track" controller="true" autoplay="true" autostart="True" type="audio/mp3" />
 		
 
 	</object>

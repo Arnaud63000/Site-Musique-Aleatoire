@@ -5,7 +5,7 @@
 <head>
      <?php 
      
-	$urls = array("AgenceToutRisque.php", "Starsky.php" ,"pokemon.php" ,"stupeflip.php" ,"starwars.php" ,"dallas.php" ,"indiana.php", "Hey Banana.php", "Vladimir.php", "Rasputin.php", "kaskake.php", "titanic.php"); 
+	$urls = array("AgenceToutRisque.php" ,"Starsky.php" ,"pokemon.php" ,"stupeflip.php" ,"starwars.php" ,"dallas.php" ,"indiana.php" ,"Hey Banana.php" ,"Vladimir.php", "Rasputin.php" ,"kaskade.php" ,"titanic.php"); 
   $random = (rand() % count($urls) ); 
   	
 include($urls[$random]);
@@ -22,8 +22,11 @@ include($urls[$random]);
 	
 <script>
   function redirection()
-{
-	window.location='index.php';
+{	
+	
+	
+		window.location.reload(true);
+	
 }
 	
 </script>
